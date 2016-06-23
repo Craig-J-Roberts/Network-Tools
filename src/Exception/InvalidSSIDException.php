@@ -7,7 +7,7 @@ namespace cjr\NetworkTools\Exception;
  *
  * @author Craig Roebrts
  */
-class InvalidSSIDException extends Exception
+class InvalidSSIDException extends \Exception
 {
     public function __construct($ssid, $code = 16, Exception $previous = null)
     {
