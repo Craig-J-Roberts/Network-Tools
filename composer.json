@@ -1,0 +1,17 @@
+{
+    "name": "cjr/network-tools",
+    "description": "A selection of classes to interface with the busybox network utilities",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Craig Roberts",
+            "email": "cjr@craigroberts.net"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "cjr\\NetworkTools\\": "src/"
+        }
+    }   
+}
