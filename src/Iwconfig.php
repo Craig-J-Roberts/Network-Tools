@@ -6,8 +6,8 @@ use cjr\NetworkTools\Exception\InvalidInterfaceException;
 use cjr\NetworkTools\Exception\WPASupplicantStillRunningException;
 use cjr\NetworkTools\Exception\WPASupplicantNotRunningException;
 use cjr\NetworkTools\Exception\InvalidEncryptionTypeException;
-use cjr\NetworkTools\ConsoleInterface\WPASupplicant;
-use cjr\NetworkTools\ConsoleInterface\Iwlist;
+use cjr\NetworkTools\WPASupplicant;
+use cjr\NetworkTools\Iwlist;
 
 /**
  * Representation of iwconfig console command
